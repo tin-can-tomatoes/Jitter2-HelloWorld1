@@ -1,0 +1,3 @@
+[submodule "jitterphysics2"]
+	path = jitterphysics2
+	url = https://github.com/notgiven688/jitterphysics2.git
