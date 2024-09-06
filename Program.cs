@@ -1,7 +1,7 @@
 ﻿using Jitter2;
 
 
-World world = new();
+World world = new(numBodies: 1, numContacts: 1, numConstraints: 1);
 
 
 world.Step(1f/100f, false);
