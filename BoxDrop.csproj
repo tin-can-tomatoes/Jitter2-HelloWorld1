@@ -8,8 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Jitter2" Version="2.4.3" />
     <PackageReference Include="Raylib-cs" Version="6.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="jitterphysics2\src\Jitter2\Jitter2.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <DefaultItemExcludes>$(DefaultItemExcludes);jitterphysics2\**\*</DefaultItemExcludes>
+  </PropertyGroup>
+  
 </Project>

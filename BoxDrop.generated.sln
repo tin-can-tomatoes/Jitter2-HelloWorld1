@@ -5,6 +5,12 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoxDrop", "BoxDrop.csproj", "{3E5FB0E8-9E9B-4C78-A9C4-FF190F58AE9D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jitterphysics2", "jitterphysics2", "{B1156418-991D-4ADC-8A6D-B3506B854B8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8EFAD49D-E8EC-4D26-8E3E-4620DEB98925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jitter2", "jitterphysics2\src\Jitter2\Jitter2.csproj", "{EAD50BE7-17FF-4E88-9243-D889F9FB517B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +21,19 @@ Global
 		{3E5FB0E8-9E9B-4C78-A9C4-FF190F58AE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E5FB0E8-9E9B-4C78-A9C4-FF190F58AE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E5FB0E8-9E9B-4C78-A9C4-FF190F58AE9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD50BE7-17FF-4E88-9243-D889F9FB517B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD50BE7-17FF-4E88-9243-D889F9FB517B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD50BE7-17FF-4E88-9243-D889F9FB517B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD50BE7-17FF-4E88-9243-D889F9FB517B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BAF02BCF-5D70-4A3E-BFA8-689ABFCB3822}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8EFAD49D-E8EC-4D26-8E3E-4620DEB98925} = {B1156418-991D-4ADC-8A6D-B3506B854B8F}
+		{EAD50BE7-17FF-4E88-9243-D889F9FB517B} = {8EFAD49D-E8EC-4D26-8E3E-4620DEB98925}
 	EndGlobalSection
 EndGlobal
