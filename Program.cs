@@ -85,7 +85,7 @@ while (!WindowShouldClose())
 
     DrawModel(planeModel, Vector3.Zero, 1.0f, Color.White);
 
-    world.Step(1.0f / 100.0f, true);
+    world.Step(1.0f / 100.0f, false);
 
     foreach(var body in world.RigidBodies)
     {
